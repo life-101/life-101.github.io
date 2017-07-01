@@ -16,8 +16,8 @@ html, body {
 }
 
 body {
-  color: #4a4a4a;
-  background-color: #fafbfc;
+  color: rgb(30, 39, 69);
+  background-color: rgb(245, 243, 238);
   font-family: 'Open Sans', Arial, sans-serif;
   font-weight: 400;
   font-size: 0.85em;
@@ -138,8 +138,9 @@ a:hover {
 }
 
 #title {
-  color: #4a4a4a;
+  color: rgb(30, 30, 30);
   margin-bottom: 0.35em;
+  margin-top: 0;
   font-size: 3em;
   line-height: 40px;
   /*text-transform: uppercase;*/
@@ -147,8 +148,14 @@ a:hover {
 
 .post {
   line-height: 24px;
-  max-width: 725px;
+  max-width: 750px;
   clear: both;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  margin: 1.75em 0 0.50em 0;
 }
 
 .post h2 {
@@ -208,6 +215,63 @@ a:hover {
 
 /*****************************************************************************/
 /*
+/* Life 101 posts
+/*
+/*****************************************************************************/
+
+#in-a-nutshell {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-size: 1.4em;
+  background: rgb(80, 144, 197);
+  padding: 0.5em;
+  margin-bottom: 0;
+  color: rgb(255, 222, 166);
+}
+
+.nutshell {
+  background: rgb(100, 164, 217);
+  padding: 0.5em;
+  color: rgb(33, 39, 69);
+}
+
+.post ol {
+  margin-left: 0;
+
+}
+
+.post ul {
+  background: rgb(100, 164, 217);
+  list-style-position: inside;
+  padding: 0.5em 0.5em 0.5em 1em;
+  margin: 0;
+}
+
+.post ol li {
+  font-weight: bold;
+  list-style-position: inside;
+  background: rgb(80, 144, 197);
+  margin: 1em 0 0 0;
+}
+
+.post ol li ul {
+  background: rgb(100, 164, 217);
+  list-style-position: inside;
+  margin: 0;
+}
+.post ol li ul li {
+  font-weight: normal;
+  background: rgb(100, 164, 217);
+  margin: 0;
+}
+
+.post ul li {
+  /*background: rgb(80, 144, 197);*/
+  list-style-position: inside;
+  list-style-type: disc;
+}
+
+/*****************************************************************************/
+/*
 /* Sidebar and Content
 /*
 /*****************************************************************************/
@@ -222,9 +286,9 @@ a:hover {
 }
 
 .sidebar {
-  background: #f3f3f3;
+  background: rgb(90, 97, 117);
   float: left;
-  /*width: 14%;*/
+  width: 11em;
   padding-left: 2.125em;
   padding-right: 2.125em;
   /*border-right: 1px solid #e7e7e7;*/
