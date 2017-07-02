@@ -151,8 +151,8 @@ h4 {
 /*************************************/
 
 .container {
-	padding-top: 3em;
-	padding-bottom: 4em;
+	padding-top: 10em;
+	padding-bottom: 11em;
 }
 
 @media (min-width: 576px) {
