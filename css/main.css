@@ -133,6 +133,12 @@ h4 {
 	background-position: right 3em bottom 1.5em;
   	background-size: 15em 15em;
 }
+.sun {
+	background-image: url(../img/svg/sun.svg);
+	background-repeat: no-repeat;
+	background-position: right 3em top 1.5em;
+  	background-size: 15em 15em;
+}
 
 /*************************************/ 
 /* Nav
