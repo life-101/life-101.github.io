@@ -16,6 +16,7 @@
 
 body {
 	color: var(--Navy);
+	font-family: 'Open Sans', 'Segoe UI', sans-serif;
 }
 
 a {
@@ -26,8 +27,8 @@ a.white {
 }
 
 h2 {
-	font-family: 'Open Sans', 'Times New Roman' sans-serif;
-	font-weight: 500;
+	font-family: 'Open Sans';
+	font-weight: 600;
 	font-size: 2rem;
 	margin: 1rem;
 	margin-bottom: 1.25rem;
@@ -39,8 +40,32 @@ h4 {
 	margin-top: 1em;
 }
 
-.btn {
+.btn-lightyellow {
 	border-radius: 20px;
+	border: 1px solid var(--LightYellow);
+	color: var(--LightYellow);
+}
+.btn-lightyellow a {
+	color: var(--LightYellow);
+}
+.btn-lightyellow a:hover {
+	background: var(--Navy);
+}
+
+.btn-navy {
+	border-radius: 20px;
+	border: 1px solid var(--Navy);
+}
+
+.btn:hover {
+	background: var(--LightYellow);
+	color: var(--Navy);
+	opacity: 1.0;
+}
+
+.expand {
+	margin: auto;
+	margin-top: 1.5em;
 }
 
 /*************************************/ 
@@ -66,10 +91,12 @@ h4 {
 	background: var(--Pink);
 	color: var(--Navy);
 }
+
 .navy {	
 	color: var(--Yellow);
 	background-color: var(--Navy);
 }
+
 .yellow {
 	background: var(--Yellow);
 	color: var(--Navy);
