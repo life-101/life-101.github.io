@@ -1,11 +1,296 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-{% assign page = site.posts.first %}
-{% assign content = page.content %}
-{% for post in site.posts %}
-	{% include post.html %}
-{% endfor %}
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  	<!-- Main CSS -->
+  	<link rel="stylesheet" href="css/main.css">
+  	<!-- Fonts |Source+Sans+Pro:400-->
+  	<link href="https://fonts.googleapis.com/css?family=Montserrat:400" rel="stylesheet">
+  </head>
 
+  <body>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script> 
+
+    <!-- Nav -->
+	<nav class="navbar navbar-toggleable-md navbar-light sticky-top bg-white">
+	  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <a class="navbar-brand" href="#">Life 101</a>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">People</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Wellbeing</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Section 3</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Section 4</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Section 5</a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+
+	<!-- Intro -->
+	<div class="cream">
+		<div class="container">
+			<h2>Introduction</h2>
+	    	<div class="row">
+
+			    <div class="col-md-6">
+			  		<!--<img class="card-img-top" src="/images/pathToYourImage.png" alt="Card image cap">-->
+			  		<div class="card-block">
+			    		<p class="card-text">
+				      		Some quick example text to build on the card title
+				      		and make up the bulk of the card's content. Some quick
+				      		example text to build on the card title
+				      		and make up the bulk of the card's content.
+			      		</p>
+			      		<p>
+				      		Some quick example text to build on the card title
+				      		and make up the bulk of the card's content.
+			    		</p>
+			  		</div>
+				</div>
+			    <div class="col-md-6">
+			  		<!--<img class="card-img-top" src="/images/pathToYourImage.png" alt="Card image cap">-->
+			  		<div class="card-block">
+			    		<p class="card-title quote">"Most people go through life making the same mistakes over and over again"</p>
+			    		<p class="card-text author">
+			      		&mdash; Quote Author
+			    		</p>
+			  		</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- People -->
+	<div class="navy heart">
+		<div class="container">  
+		<h2>Building relationships</h2>
+	    	<div class="row">
+
+			    <div class="col-md-4">
+			  		<!--<img class="card-img-top" src="/images/pathToYourImage.png" alt="Card image cap">-->
+			  		<div class="card-block">
+			    		<h4 class="card-title">1. Don't criticise, condemn or complain</h4>
+			    		<p class="card-text">
+			      		Some quick example text to build on the card title
+			      		and make up the bulk of the card's content.
+			    		</p>
+			  		</div>
+				</div>
+			    <div class="col-md-4">
+			  		<!--<img class="card-img-top" src="/images/pathToYourImage.png" alt="Card image cap">-->
+			  		<div class="card-block">
+			    		<h4 class="card-title">2. Give honest and sincere appreciation</h4>
+			    		<p class="card-text">
+			      		Some quick example text to build on the card title
+			      		and make up the bulk of the card's content.
+			    		</p>
+			  		</div>
+				</div>
+			    <div class="col-md-4">
+			  		<!--<img class="card-img-top" src="/images/pathToYourImage.png" alt="Card image cap">-->
+			  		<div class="card-block">
+			    		<h4 class="card-title">3. Arouse in the other person an eager want</h4>
+			    		<p class="card-text">
+			      		Some quick example text to build on the card title
+			      		and make up the bulk of the card's content.
+			    		</p>
+			    		
+			  		</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Section 3 -->
+	<div class="blue cloud">
+		<div class="container">  
+			<h2>How to stop worrying</h2>
+	    	<div class="row">
+
+			    <div class="col-md-6">
+			  		<!--<img class="card-img-top" src="/images/pathToYourImage.png" alt="Card image cap">-->
+			  		<div class="card-block">
+			  			<h4 class="card-title">Heading</h4>
+			    		<p class="card-text">
+				      		Some quick example text to build on the card title
+				      		and make up the bulk of the card's content. Some quick
+				      		example text to build on the card title
+				      		and make up the bulk of the card's content.
+			      		</p>
+			      		<p>
+				      		Some quick example text to build on the card title
+				      		and make up the bulk of the card's content.
+			    		</p>
+			  		</div>
+				</div>
+			    <div class="col-md-6">
+			  		<!--<img class="card-img-top" src="/images/pathToYourImage.png" alt="Card image cap">-->
+			  		<div class="card-block">
+			  			<h4 class="card-title">Heading</h4>
+			    		<p class="card-text">
+				      		Some quick example text to build on the card title
+				      		and make up the bulk of the card's content. Some quick
+				      		example text to build on the card title
+				      		and make up the bulk of the card's content.
+			      		</p>
+			      		<p>
+				      		Some quick example text to build on the card title
+				      		and make up the bulk of the card's content.
+			    		</p>
+			  		</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Section 4 -->
+	<div class="yellow star">
+		<div class="container">  
+		<h2>Win people to your way of thinking</h2>
+	    	<div class="row">
+
+			    <div class="col-md-4">
+			  		<!--<img class="card-img-top" src="/images/pathToYourImage.png" alt="Card image cap">-->
+			  		<div class="card-block">
+			    		<h4 class="card-title">1. Don't criticise, condemn or complain</h4>
+			    		<p class="card-text">
+			      		Some quick example text to build on the card title
+			      		and make up the bulk of the card's content.
+			    		</p>
+			  		</div>
+				</div>
+			    <div class="col-md-4">
+			  		<!--<img class="card-img-top" src="/images/pathToYourImage.png" alt="Card image cap">-->
+			  		<div class="card-block">
+			    		<h4 class="card-title">2. Give honest and sincere appreciation</h4>
+			    		<p class="card-text">
+			      		Some quick example text to build on the card title
+			      		and make up the bulk of the card's content.
+			    		</p>
+			  		</div>
+				</div>
+			    <div class="col-md-4">
+			  		<!--<img class="card-img-top" src="/images/pathToYourImage.png" alt="Card image cap">-->
+			  		<div class="card-block">
+			    		<h4 class="card-title">3. Arouse in the other person an eager want</h4>
+			    		<p class="card-text">
+			      		Some quick example text to build on the card title
+			      		and make up the bulk of the card's content.
+			    		</p>
+			    		
+			  		</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Section 5 -->
+	<div class="pink">
+		<div class="container"> 
+		<h2>Be a leader</h2> 
+	    	<div class="row">
+
+			    <div class="col-md-6">
+			  		<!--<img class="card-img-top" src="/images/pathToYourImage.png" alt="Card image cap">-->
+			  		<div class="card-block">
+			    		<h4 class="card-title">Section 5</h4>
+			    		<p class="card-text">
+				      		Some quick example text to build on the card title
+				      		and make up the bulk of the card's content. Some quick
+				      		example text to build on the card title
+				      		and make up the bulk of the card's content.
+			      		</p>
+			      		<p>
+				      		Some quick example text to build on the card title
+				      		and make up the bulk of the card's content.
+			    		</p>
+			  		</div>
+				</div>
+			    <div class="col-md-6">
+			  		<!--<img class="card-img-top" src="/images/pathToYourImage.png" alt="Card image cap">-->
+			  		<div class="card-block">
+			    		<h4 class="card-title">Introduction</h4>
+			    		<p class="card-text">
+				      		Some quick example text to build on the card title
+				      		and make up the bulk of the card's content. Some quick
+				      		example text to build on the card title
+				      		and make up the bulk of the card's content.
+			      		</p>
+			      		<p>
+				      		Some quick example text to build on the card title
+				      		and make up the bulk of the card's content.
+			    		</p>
+			    		<a href="#" class="btn btn-secondary">Go somewhere</a>
+			  		</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<div class="cream">
+		<div class="container">  
+	    	<div class="row">
+
+			    <div class="col-md-4">
+			  		<!--<img class="card-img-top" src="/images/pathToYourImage.png" alt="Card image cap">-->
+			  		<div class="card-block">
+	        			<a href="#">This is a link</a><br />
+	        			<a href="#">More information</a><br />
+	        			<a href="#">Link number 3</a>
+			  		</div>
+				</div>
+			    <div class="col-md-4">
+			  		<!--<img class="card-img-top" src="/images/pathToYourImage.png" alt="Card image cap">-->
+			  		<div class="card-block">
+	        			<p class="card-text">
+			      		Some quick example text to build on the card title
+			      		and make up the bulk of the card's content.
+			    		</p>
+			  		</div>
+				</div>
+			    <div class="col-md-4">
+			  		<!--<img class="card-img-top" src="/images/pathToYourImage.png" alt="Card image cap">-->
+			  		<div class="card-block">
+			    		<p class="card-text">
+			      		Some quick example text to build on the card title
+			      		and make up the bulk of the card's content.
+			    		</p>
+			  		</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+  </body>
+</html>
