@@ -26,7 +26,8 @@ a.white {
 }
 
 h2 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', 'Times New Roman' sans-serif;
+	font-weight: 500;
 	font-size: 2rem;
 	margin: 1rem;
 	margin-bottom: 1.25rem;
