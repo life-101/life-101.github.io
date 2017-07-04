@@ -12,7 +12,7 @@ $(".expand").click(function () {
 
         $button.text(function () {
             //change text based on condition
-            return $content.is(":visible") ? "Read less" : "Read more";
+            return $content.is(":visible") ? "Read less \u25B2" : "Read more \u25BC";
         });
     });
     /*console.log($content);*/
