@@ -116,8 +116,8 @@ h4 {
 .arrow {
 	background-image: url(../img/svg/arrow-thick-top.svg);
 	background-repeat: no-repeat;
-	background-position: right 3em bottom 0em;
-  	background-size: 20em 20em;
+	background-position: left 3em bottom 6em;
+  	background-size: 15em 15em;
 }
 
 .cloud {
@@ -130,13 +130,13 @@ h4 {
 .star {
 	background-image: url(../img/svg/star.svg);
 	background-repeat: no-repeat;
-	background-position: right 3em bottom 1.5em;
+	background-position: right 3em top 3em;
   	background-size: 15em 15em;
 }
 .sun {
 	background-image: url(../img/svg/sun.svg);
 	background-repeat: no-repeat;
-	background-position: right 3em top 1.5em;
+	background-position: left 3em top 3em;
   	background-size: 15em 15em;
 }
 
@@ -195,6 +195,13 @@ h4 {
 
 .card-block {
 	padding: 1rem;
+}
+
+.card-block ul {
+	padding-left: 1.5em;
+}
+.card-block ul li {
+	margin-top: 0.5em;
 }
 
 .quote {
