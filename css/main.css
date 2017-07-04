@@ -39,7 +39,9 @@ h4 {
 	font-size: 1.25em;
 	margin-top: 1em;
 }
-
+.btn {
+	margin: auto;
+}
 .btn-lightyellow {
 	border-radius: 20px;
 	border: 1px solid var(--LightYellow);
@@ -214,4 +216,7 @@ h4 {
 .author {
 	padding-left: 20px;
 	color: var(--Grey);
+}
+.hidden {
+	/*display: none;*/
 }

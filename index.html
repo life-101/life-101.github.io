@@ -13,11 +13,12 @@
   	<!-- Fonts |Source+Sans+Pro:400-->
   	<link href="https://fonts.googleapis.com/css?family=Montserrat:400|Open+Sans:400,500,600" rel="stylesheet">
   	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
 
   <body>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <!--<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script> 
 
@@ -175,7 +176,7 @@
 
 			</div>
 
-			<div class="row">
+			<div class="row hidden">
 
 			    <div class="col-md-6">
 			  		<!--<img class="card-img-top" src="/images/pathToYourImage.png" alt="Card image cap">-->
@@ -196,10 +197,11 @@
 			      		</p>
 			  		</div>
 				</div>
-				<div class ="expand">
-					<a href="#" class="btn btn-lightyellow">Read more &#x25bc;</a>
-				</div>
 
+			</div>
+
+			<div class="row">
+				<span class="btn btn-lightyellow expand">Read more  &#x25bc;</span>
 			</div>
 
 		</div>
@@ -245,7 +247,7 @@
 
 			</div>
 
-			<div class="row">
+			<div class="row hidden">
 
 			    <div class="col-lg-4">
 			  		<!--<img class="card-img-top" src="/images/pathToYourImage.png" alt="Card image cap">-->
@@ -278,10 +280,10 @@
 			    		
 			  		</div>
 				</div>
-				<div class ="expand">
-					<a href="#" class="btn btn-navy">Read more &#x25bc;</a>
-				</div>
+			</div>
 
+			<div class="row">
+				<span class="btn btn-navy expand">Read more  &#x25bc;</span>
 			</div>
 
 		</div>
@@ -325,9 +327,9 @@
 			    		</p>
 			  		</div>
 				</div>
-				<div class ="expand">
-					<a href="#" class="btn btn-navy">Read more &#x25bc;</a>
-				</div>
+			</div>
+			<div class="row">
+				<span class="btn btn-navy expand">Read more  &#x25bc;</span>
 			</div>
 		</div>
 	</div>
@@ -371,6 +373,8 @@
 			</div>
 		</div>
 	</div>
+
+	<script src="js/script.js"></script>
 
   </body>
 </html>

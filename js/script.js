@@ -1,68 +1,31 @@
-// VARIABLES
-// You don't have to explicitly declare type; the interpreter works it out
-var x = 5;
-var y = 4.2;
-var result = x + y;
+$(".expand").click(function () {
 
+    $button = $(this);
+    //getting the next element
+    $content = $button.parent().prev();
+    //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
+    $content.slideToggle(500, function () {
+        //execute this after slideToggle is done
+        //change text of button based on visibility of content div
+        if ($content.is(':visible'))
+        $content.css('display','flex');
 
-// OPERATORS
-// All as you would typically expect
-c = a + b;
-c = a - b;
-c = a * b;
-c = a / b;
+        $button.text(function () {
+            //change text based on condition
+            return $content.is(":visible") ? "Read less" : "Read more";
+        });
+    });
+    /*console.log($content);*/
 
-c = a++; // increments a
-c = ++a; // increments c
+});
 
-var myVar = (x == y); //evaluates to FALSE
-var myVar = (x >= y);  //evaluates to TRUE
-var myVar = (x != y); //evaluates to TRUE
-
-// STRINGS
-var str1 = 'Hello, world';
-var str2 = "How's it going?";
-
-var str3 = str1 + '. ' + str2;
-
-var strSize = str3.length;
-
-// ARRAYS
-// (zero-indexed);
-var allNumbers = [1,2,3,4,5];
-var myNumber = allNumbers[3]; //=4
-
-// CONDITIONALS
-var country = 'England';
-
-if(country == 'England') {
-	weather = 'bad';
-	food = 'bad';
-	currency = 'GBP';
-}
-else if(country == 'France') {
-	weather = 'good';
-	food = 'great';
-	currency = 'EUR';
-}
-else {
-	weather = 'unknown';
-	food = 'unknown';
-	currency = 'unkown';
-}
-
-if(food == 'bad' && weather == 'good');
-
-
-
-// MAKING CHANGES TO HTML
-// We operate on the DOM with the document object
-
-// eg: change the properties of an element
-document.getElementById("demo").innerHTML = "Hello JavaScript!";
-document.getElementById("demo").style.fontSize = "25px";
-
-// other DOM objects
-document.getElementsByClassName('header');
-document.getElementsByTagName('div');
-document.write('var x = 4;');
+$(".hidden").css( "display", "none");
+/*
+$( ".expand" ).on( "mouseover", function() {
+  $( this ).css( "background", "#333" );
+  $( this ).css( "color", "#FFF" );
+});
+$( ".expand" ).on( "mouseout", function() {
+  $( this ).css( "background", "#FFF" );
+  $( this ).css( "color", "#000" );
+});*/
