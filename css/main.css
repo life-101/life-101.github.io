@@ -68,6 +68,7 @@ h4 {
 .expand {
 	margin: auto;
 	margin-top: 1.5em;
+	cursor: pointer;
 }
 
 /*************************************/ 
